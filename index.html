@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+<script>
+var http = {
+	request: function(method, url, data, headers) {
+		return new Promise(function(resolve, reject) {
+			var request = new XMLHttpRequest()
+
+			request.open(method, url, true)
+
+			if(headers) {
+				for(var headerName in headers) {
+					request.setRequestHeader(headerName, headers[headerName])
+				}
+			}
+
+			request.onloadend = function() {
+				var data
+				try {data = JSON.parse(request.response)}
+				catch(error) {}
+				resolve(data)
+			}
+
+			if(typeof data != 'string')
+				data = JSON.stringify(data)
+
+			request.send(data)
+		})
+	},
+
+	get: function(url, headers) {
+		return http.request('GET', url, null, headers)
+	},
+
+	post: function(url, data, headers) {
+		return http.request('POST', url, data, headers)
+	},
+
+	put: function(url, data, headers) {
+		return http.request('PUT', url, data, headers)
+	},
+
+	delete: function(url, headers) {
+		return http.request('DELETE', url, null, headers)
+	}
+}
+</script>
+
+</head>
+<body>
+
+<script>
+	http.get('esb-request/google.com/80/?q=123')
+		.then(response => {
+			console.log(response)
+		})
+</script>
+
+</body>
+</html>

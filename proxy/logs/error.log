@@ -1,0 +1,167 @@
+2021/10/02 00:02:33 [emerg] 6264#220: CreateFile() "C:\Users\ку\Desktop\monaco-ace\proxy/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2021/10/02 00:02:53 [emerg] 9636#9496: CreateFile() "C:\Users\ку\Desktop\monaco-ace\proxy/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2021/10/02 00:05:06 [emerg] 400#7600: CreateFile() "C:\Users\ку\Desktop\monaco-ace\proxy/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2021/10/02 00:06:07 [emerg] 3820#4148: "server" directive is not allowed here in D:\monaco-ace\proxy/conf/nginx.conf:1
+2021/10/02 00:06:15 [emerg] 1740#4812: "server" directive is not allowed here in D:\monaco-ace\proxy/conf/nginx.conf:1
+2021/10/02 00:08:24 [emerg] 5280#6824: unexpected "}" in D:\monaco-ace\proxy/conf/nginx.conf:8
+2021/10/02 00:08:36 [emerg] 2108#4752: no "events" section in configuration
+2021/10/02 00:09:26 [error] 7224#5508: *1 directory index of "D:/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2021/10/02 00:09:26 [error] 7224#5508: *1 CreateFile() "D:/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:09:49 [error] 7224#5508: *1 directory index of "D:/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2021/10/02 00:10:36 [emerg] 6060#3984: unexpected "}" in D:\monaco-ace\proxy/conf/nginx.conf:15
+2021/10/02 00:10:49 [notice] 4248#1252: signal process started
+2021/10/02 00:10:52 [error] 5620#8336: *4 "D:\monaco-ace\proxy/./esb-request/google.com/80/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/google.com/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:17:16 [notice] 2380#5616: signal process started
+2021/10/02 00:17:22 [error] 11180#11160: *7 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:18:25 [error] 11180#11160: *7 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:19:58 [notice] 8668#10264: signal process started
+2021/10/02 00:20:33 [error] 3540#8292: *11 google.com could not be resolved (10060: Operation timed out), client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:20:41 [emerg] 1484#11104: invalid host in resolver "https://google.com" in D:\monaco-ace\proxy/conf/nginx.conf:15
+2021/10/02 00:21:00 [notice] 9296#9764: signal process started
+2021/10/02 00:21:36 [error] 2908#7848: *20 google.com could not be resolved (10060: Operation timed out), client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:21:58 [notice] 10788#9928: signal process started
+2021/10/02 00:22:32 [error] 2908#7848: *23 google.com could not be resolved (10060: Operation timed out), client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:23:11 [notice] 10400#10484: signal process started
+2021/10/02 00:23:15 [error] 9344#10576: *29 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:24:14 [notice] 5208#10844: signal process started
+2021/10/02 00:24:21 [error] 3228#10520: *32 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:25:06 [notice] 10752#10976: signal process started
+2021/10/02 00:25:16 [error] 3228#10520: *34 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:25:49 [notice] 8556#9000: signal process started
+2021/10/02 00:25:54 [error] 2108#3228: *35 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:27:56 [notice] 10888#1168: signal process started
+2021/10/02 00:28:08 [error] 6764#10792: *38 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:29:09 [notice] 6456#10020: signal process started
+2021/10/02 00:29:15 [error] 9104#8268: *41 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:29:52 [notice] 5824#10476: signal process started
+2021/10/02 00:29:59 [error] 9104#8268: *43 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:39:44 [notice] 10476#10764: signal process started
+2021/10/02 00:39:50 [error] 5616#2504: *44 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET /esb-request/google.com/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:40:22 [error] 5616#2504: *45 no resolver defined to resolve google.com, client: 127.0.0.1, server: , request: "GET /esb-request/google.com/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:44:28 [error] 5616#2504: *47 no resolver defined to resolve localhost, client: 127.0.0.1, server: , request: "GET /esb-request/localhost/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 00:48:17 [emerg] 10196#10336: invalid host in resolver "http://$1" in D:\monaco-ace\proxy/conf/nginx.conf:16
+2021/10/02 01:11:29 [emerg] 11036#12196: invalid number of arguments in "try_files" directive in D:\monaco-ace\proxy/conf/nginx.conf:12
+2021/10/02 01:11:42 [notice] 14136#13972: signal process started
+2021/10/02 01:12:07 [error] 13964#14312: *50 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", upstream: "http://8.8.8.8:808.8.8.8:80/?q=123", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:16:17 [notice] 14096#12688: signal process started
+2021/10/02 01:16:47 [error] 5872#11596: *54 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", upstream: "http://8.8.8.8:8080/?q=123", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:18:05 [notice] 11164#9484: signal process started
+2021/10/02 01:18:31 [error] 12688#13896: *58 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", upstream: "http://8.8.8.8:8080/?q=123", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:18:56 [notice] 14304#14044: signal process started
+2021/10/02 01:19:27 [error] 12688#13896: *61 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", upstream: "http://8.8.8.8:8080/?q=123", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:20:19 [notice] 7600#2132: signal process started
+2021/10/02 01:20:43 [error] 13796#13020: *63 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", upstream: "http://8.8.8.8:808.8.8.8?q=123", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:21:49 [notice] 3512#9208: signal process started
+2021/10/02 01:22:08 [notice] 12520#13100: signal process started
+2021/10/02 01:22:11 [error] 14276#11492: *67 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:23:01 [notice] 13224#12440: signal process started
+2021/10/02 01:23:05 [error] 14276#11492: *69 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:24:01 [notice] 7816#12764: signal process started
+2021/10/02 01:24:04 [error] 14200#14164: *70 CreateFile() "D:\monaco-ace\proxy/html80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:24:24 [notice] 14056#13620: signal process started
+2021/10/02 01:24:28 [error] 14200#14164: *72 CreateFile() "D:\monaco-ace\proxy/html80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:25:15 [notice] 13272#13772: signal process started
+2021/10/02 01:25:22 [error] 12140#14060: *73 CreateFile() "D:\monaco-ace\proxy/html8080" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:26:00 [emerg] 12580#12740: invalid number of arguments in "rewrite" directive in D:\monaco-ace\proxy/conf/nginx.conf:15
+2021/10/02 01:26:12 [notice] 13340#6972: signal process started
+2021/10/02 01:26:15 [error] 12140#14060: *75 CreateFile() "D:\monaco-ace\proxy/html8080" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:26:52 [error] 11368#9012: *76 CreateFile() "D:\monaco-ace\proxy/html8.8.8.87" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:27:26 [notice] 13592#13564: signal process started
+2021/10/02 01:27:29 [error] 11368#9012: *78 CreateFile() "D:\monaco-ace\proxy/html8.8.8.87" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:27:51 [notice] 14324#14220: signal process started
+2021/10/02 01:27:55 [error] 13316#13616: *79 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:7" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:14 [notice] 12016#8576: signal process started
+2021/10/02 01:28:20 [error] 13316#13616: *81 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:7" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:21 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:7" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:22 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:7" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:22 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:7" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/7/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:40 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:40 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:28:40 [error] 9484#9544: *82 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:20 [notice] 14060#10916: signal process started
+2021/10/02 01:29:24 [error] 13232#13424: *85 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:24 [error] 13232#13424: *85 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:25 [error] 13232#13424: *85 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:53 [notice] 7904#13448: signal process started
+2021/10/02 01:29:57 [error] 13232#13424: *87 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:58 [error] 12476#14220: *88 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:29:58 [error] 12476#14220: *88 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:30:33 [notice] 13000#13164: signal process started
+2021/10/02 01:30:37 [error] 12476#14220: *90 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:30:37 [error] 9444#14304: *91 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:30:38 [error] 9444#14304: *91 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:31:41 [notice] 14204#13064: signal process started
+2021/10/02 01:31:45 [error] 12652#14324: *94 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:31:45 [error] 12652#14324: *94 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:31:46 [error] 12652#14324: *94 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:32:13 [notice] 3928#12336: signal process started
+2021/10/02 01:32:27 [error] 14304#13104: *1 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:33:13 [notice] 11164#14160: signal process started
+2021/10/02 01:33:25 [error] 14304#13104: *3 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:33:47 [notice] 7948#6796: signal process started
+2021/10/02 01:33:51 [error] 2836#9852: *4 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:33:52 [error] 2836#9852: *4 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:33:52 [error] 2836#9852: *4 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:19 [notice] 1848#13488: signal process started
+2021/10/02 01:34:22 [error] 2836#9852: *6 CreateFile() "D:\monaco-ace\proxy/html8.8.8.880" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:23 [error] 13468#6972: *7 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:23 [error] 13468#6972: *7 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:53 [notice] 13364#10624: signal process started
+2021/10/02 01:34:56 [error] 13468#6972: *9 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:80" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:57 [error] 808#10428: *10 "D:\monaco-ace\proxy/html8.8.8.8:80/index.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:34:58 [error] 808#10428: *10 "D:\monaco-ace\proxy/html8.8.8.8:80/index.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/80/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:35:47 [error] 808#10428: *10 "D:\monaco-ace\proxy/html8.8.8.8:90/index.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/90/?q=123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:36:11 [error] 808#10428: *10 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:90/123" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/90/123 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:37:02 [error] 808#10428: *10 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:90/123/234" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/90/123/234 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:37:36 [error] 808#10428: *10 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:90/123/234" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/90/123/234 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:38:17 [notice] 8404#7792: signal process started
+2021/10/02 01:38:20 [error] 8220#5016: *15 CreateFile() "D:\monaco-ace\proxy/html8.8.8.8:90/123/234" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/8.8.8.8/90/123/234 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:39:09 [notice] 13564#13776: signal process started
+2021/10/02 01:41:11 [notice] 10172#13776: signal process started
+2021/10/02 01:44:17 [emerg] 10072#14088: unknown "my_host" variable
+2021/10/02 01:44:24 [notice] 12452#5524: signal process started
+2021/10/02 01:45:02 [notice] 14008#9196: signal process started
+2021/10/02 01:46:02 [notice] 11092#6796: signal process started
+2021/10/02 01:47:29 [notice] 14004#4068: signal process started
+2021/10/02 01:48:17 [notice] 12564#13480: signal process started
+2021/10/02 01:48:37 [error] 4280#12184: *36 CreateFile() "D:\monaco-ace\proxy/htmlgoogle.com/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:48:37 [error] 4280#12184: *36 CreateFile() "D:\monaco-ace\proxy/htmlgoogle.com/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:48:37 [error] 4280#12184: *36 CreateFile() "D:\monaco-ace\proxy/htmlgoogle.com/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:48:38 [error] 4280#12184: *36 CreateFile() "D:\monaco-ace\proxy/htmlgoogle.com/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:48:44 [error] 4280#12184: *36 CreateFile() "D:\monaco-ace\proxy/htmlgoogle.com/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:49:39 [notice] 12976#14720: signal process started
+2021/10/02 01:49:42 [error] 3364#7976: *39 CreateFile() "D:\monaco-ace\proxy/html74.125.131.102/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:49:59 [notice] 15068#15076: signal process started
+2021/10/02 01:50:02 [error] 3364#7976: *41 CreateFile() "D:\monaco-ace\proxy/html74.125.131.102/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/80/index.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:52:11 [notice] 9676#14952: signal process started
+2021/10/02 01:54:10 [notice] 13152#14028: signal process started
+2021/10/02 01:55:26 [notice] 15504#16360: signal process started
+2021/10/02 01:55:59 [notice] 8012#5436: signal process started
+2021/10/02 01:56:25 [notice] 5524#13564: signal process started
+2021/10/02 01:56:28 [error] 15288#14372: *3 invalid URL prefix in "", client: 127.0.0.1, server: , request: "GET /esb-request/134.173.42.59/80 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 01:56:42 [notice] 16252#13480: signal process started
+2021/10/02 01:58:13 [notice] 16176#13064: signal process started
+2021/10/02 02:03:03 [notice] 8388#14748: signal process started
+2021/10/02 02:03:06 [error] 16100#15756: *12 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:03:41 [notice] 15712#15092: signal process started
+2021/10/02 02:03:44 [error] 16100#15756: *14 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:02 [notice] 14684#15640: signal process started
+2021/10/02 02:04:05 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:06 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:07 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:07 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:08 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:08 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:08 [error] 13516#12380: *15 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:04:56 [notice] 12672#9008: signal process started
+2021/10/02 02:04:59 [error] 13516#12380: *17 CreateFile() "D:\monaco-ace\proxy/html127.0.0.1:8080/weather/Minsk" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:06:06 [notice] 15052#16344: signal process started
+2021/10/02 02:09:52 [notice] 14940#14748: signal process started
+2021/10/02 02:12:43 [notice] 14960#11296: signal process started
+2021/10/02 02:12:47 [error] 16312#11168: *24 CreateFile() "D:\monaco-ace\proxy/./esb-request/127.0.0.1/8080/weather/Minsk" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /esb-request/127.0.0.1/8080/weather/Minsk HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/02 02:14:10 [emerg] 13984#15040: invalid location modifier "^/esb-request/([\w\.]+)/(\d+)/(.*)$" in D:\monaco-ace\proxy/conf/nginx.conf:14
+2021/10/02 02:14:52 [notice] 15692#16244: signal process started
+2021/10/02 06:44:56 [notice] 14828#15684: signal process started
+2021/10/02 06:47:10 [notice] 4836#9256: signal process started
+2021/10/02 06:47:28 [notice] 13240#11684: signal process started
+2021/10/02 07:12:35 [notice] 18696#17692: signal process started
